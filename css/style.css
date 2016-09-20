@@ -101,6 +101,11 @@ main {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+h1 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
 form {
   display: flex;
   flex-flow: column;
@@ -132,4 +137,13 @@ form {
   background-color: #000000;
   border-top: 1px solid #666666;
   margin: 8px 6px;
+}
+
+button {
+  width: 151px;
+  height: 33px;
+  background: linear-gradient(to top, #2e7ac4, #4eabda);
+  color: #ffffff;
+  border: 1px solid #3686ca;
+  border-top: 2px solid #6bb8e7;
 }
