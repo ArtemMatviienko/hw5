@@ -116,7 +116,6 @@ form {
   display: flex;
   justify-content: space-around;
   margin: 32px 0px 29px 0px;
-  color: #999999;
 }
 
 .line1 {
@@ -143,18 +142,20 @@ form {
   border: none;
   border-bottom: 1px solid #474747;
   padding-left: 23px;
+  outline: none;
+}
+
+.inputs:focus {
+  background-color: #1e4b76;
+  box-shadow: 0px 0px 18px 4px rgba(77,136,175,1);
+  border-bottom: 1px solid #689bcc;
 }
 
 button {
   width: 151px;
   height: 33px;
-  margin-bottom: 20px;
   background: linear-gradient(to top, #2e7ac4, #4eabda);
   color: #ffffff;
   border: 1px solid #3686ca;
   border-top: 2px solid #6bb8e7;
-}
-
-label {
-  margin-bottom: 20px;
 }
