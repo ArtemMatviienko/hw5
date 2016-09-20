@@ -112,11 +112,18 @@ form {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.ou {
+  display: flex;
+  justify-content: space-around;
+  margin: 32px 0px 29px 0px;
+}
+
 .line1 {
   width: 123px;
   height: 1px;
   background-color: #000000;
   border-top: 1px solid #666666;
+  margin: 8px 6px;
 }
 
 .line2 {
@@ -124,10 +131,5 @@ form {
   height: 1px;
   background-color: #000000;
   border-top: 1px solid #666666;
-}
-
-.ou {
-  display: flex;
-  justify-content: space-around;
-  margin: 32px 0px 29px 0px;
+  margin: 8px 6px;
 }
