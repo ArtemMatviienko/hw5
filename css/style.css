@@ -143,3 +143,12 @@ form {
   border-bottom: 1px solid #474747;
   padding-left: 23px;
 }
+
+button {
+  width: 151px;
+  height: 33px;
+  background: linear-gradient(to top, #2e7ac4, #4eabda);
+  color: #ffffff;
+  border: 1px solid #3686ca;
+  border-top: 2px solid #6bb8e7;
+}
