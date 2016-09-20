@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../files/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 14px;
+}
+
+/*TOP NAVIGATION BAR*/
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 36px;
+  background-image: url(../files/bg_head.png);
+}
+
+/*LEFT SIDE OF NAVIGATION WITH HOVER*/
+
+.leftside {
+  display: flex;
+  list-style: none;
+  color: #60b5ed;
+}
+
+.leftside li {
+  padding: 8px;
+}
+
+.leftside li:hover {
+  background-color: #4eabda;
+}
+
+.leftside a {
+  text-decoration: none;
+  color: #60b5ed;
+}
+
+.leftside li:hover a {
+  color: white;
+}
+
+/*BLUE VERTICAL LINE THAT SEPARATES LEFT AND RIGHT SIDE OF NAVIGATION*/
+
+.smallbar {
+  width: 2px;
+  height: 32px;
+  background-color: #56a2dc;
+  margin: 2px 15px 2px 15px;
+}
+
+/*RIGHT SIDE OF NAVIGATION*/
+
+.rightside {
+  display: flex;
+  list-style: none;
+}
+
+.rightside li {
+  padding: 8px 10px 0px 5px;
+}
+
+.rightside a {
+  color: white;
+}
+
+.ola {
+  background-color: #4eabda;
+  border: 1px solid #56a2dc;
+  margin-right: 20px;
+}
+
+nav img {
+  height: 29px;
+  width: 29px;
+  padding: 2px;
+}
+
+/*MAIN PART*/
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 1028px;
+}
+
+.cadastre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 560px;
+  height: 62px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 560px;
+  height: 550px;
+  margin-top: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.line1 {
+  width: 123px;
+  height: 1px;
+  background-color: #000000;
+  border-top: 1px solid #666666;
+}
+
+.line2 {
+  width: 123px;
+  height: 1px;
+  background-color: #000000;
+  border-top: 1px solid #666666;
+}
+
+.ou {
+  display: flex;
+  justify-content: space-around;
+  margin: 32px 0px 29px 0px;
+}
